@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomTableViewCell.h
 //  SimpleDelegate
 //
 //  Created by Joshua Howland on 10/15/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface CustomTableViewCell : UITableViewCell
 
 @end

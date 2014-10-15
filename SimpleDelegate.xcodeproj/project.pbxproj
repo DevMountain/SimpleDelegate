@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		71BF978819EF307900650D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF978719EF307900650D8F /* main.m */; };
 		71BF978B19EF307900650D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF978A19EF307900650D8F /* AppDelegate.m */; };
-		71BF978E19EF307900650D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF978D19EF307900650D8F /* ViewController.m */; };
 		71BF979119EF307900650D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BF978F19EF307900650D8F /* Main.storyboard */; };
 		71BF979319EF307900650D8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BF979219EF307900650D8F /* Images.xcassets */; };
-		71BF979619EF307900650D8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BF979419EF307900650D8F /* LaunchScreen.xib */; };
 		71BF97A219EF307900650D8F /* SimpleDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF97A119EF307900650D8F /* SimpleDelegateTests.m */; };
+		71BF97AD19EF309800650D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF97AC19EF309800650D8F /* ViewController.m */; };
+		71BF97B019EF31B500650D8F /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BF97AF19EF31B500650D8F /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,15 @@
 		71BF978719EF307900650D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71BF978919EF307900650D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71BF978A19EF307900650D8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71BF978C19EF307900650D8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71BF978D19EF307900650D8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		71BF979019EF307900650D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71BF979219EF307900650D8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		71BF979519EF307900650D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		71BF979B19EF307900650D8F /* SimpleDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BF97A019EF307900650D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BF97A119EF307900650D8F /* SimpleDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDelegateTests.m; sourceTree = "<group>"; };
+		71BF97AB19EF309800650D8F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71BF97AC19EF309800650D8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71BF97AE19EF31B500650D8F /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		71BF97AF19EF31B500650D8F /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +84,12 @@
 			children = (
 				71BF978919EF307900650D8F /* AppDelegate.h */,
 				71BF978A19EF307900650D8F /* AppDelegate.m */,
-				71BF978C19EF307900650D8F /* ViewController.h */,
-				71BF978D19EF307900650D8F /* ViewController.m */,
+				71BF97AB19EF309800650D8F /* ViewController.h */,
+				71BF97AC19EF309800650D8F /* ViewController.m */,
+				71BF97AE19EF31B500650D8F /* CustomTableViewCell.h */,
+				71BF97AF19EF31B500650D8F /* CustomTableViewCell.m */,
 				71BF978F19EF307900650D8F /* Main.storyboard */,
 				71BF979219EF307900650D8F /* Images.xcassets */,
-				71BF979419EF307900650D8F /* LaunchScreen.xib */,
 				71BF978519EF307900650D8F /* Supporting Files */,
 			);
 			path = SimpleDelegate;
@@ -200,7 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				71BF979119EF307900650D8F /* Main.storyboard in Resources */,
-				71BF979619EF307900650D8F /* LaunchScreen.xib in Resources */,
 				71BF979319EF307900650D8F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BF978E19EF307900650D8F /* ViewController.m in Sources */,
+				71BF97AD19EF309800650D8F /* ViewController.m in Sources */,
 				71BF978B19EF307900650D8F /* AppDelegate.m in Sources */,
+				71BF97B019EF31B500650D8F /* CustomTableViewCell.m in Sources */,
 				71BF978819EF307900650D8F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +252,6 @@
 				71BF979019EF307900650D8F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		71BF979419EF307900650D8F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71BF979519EF307900650D8F /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SimpleDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SimpleDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
