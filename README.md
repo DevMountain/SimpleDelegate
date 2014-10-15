@@ -18,4 +18,4 @@ A test app that requires a custom delegate protocol is written for a table view 
 - Adopt and implement the protocol
 - Call the method from your defining class
 
-Black Diamond: Add 2 buttons. One that increments and one that decrement the number.
+**Black Diamond**: *Add 2 buttons. One that increments and one that decrement the number.*
